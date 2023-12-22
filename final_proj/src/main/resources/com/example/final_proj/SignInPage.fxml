@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="760.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_proj.SignInController">
+   <children>
+      <AnchorPane layoutY="124.0" prefHeight="406.0" prefWidth="760.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button fx:id="signIn_button" onAction="#toMainPage" layoutX="304.0" layoutY="168.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="152.0" style="-fx-background-color: #2e3348;" text="Sign In" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="username_field" layoutX="305.0" layoutY="82.0" promptText="username" />
+            <Text layoutX="306.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Don't you have an account?" />
+            <Button fx:id="register_button" onAction="#toSignUpPage" layoutX="344.0" layoutY="237.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="70.0" style="-fx-background-color: #2e3348;" text="Register!" textFill="WHITE">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="password_field" layoutX="305.0" layoutY="125.0" promptText="password" />
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="14.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CineBook" wrappingWidth="334.59568786621094">
+         <font>
+            <Font name="System Bold" size="70.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="332.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="an online movie ticket booking system">
+         <font>
+            <Font name="Cambria" size="25.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

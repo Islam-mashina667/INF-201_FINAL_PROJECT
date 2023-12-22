@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?package images?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="939.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.final_proj.MainPageController">
+   <children>
+      <AnchorPane layoutY="81.0" prefHeight="522.0" prefWidth="691.0" style="-fx-background-color: #ffffff;" styleClass="white_background">
+         <children>
+            <VBox prefHeight="522.0" prefWidth="182.0" style="-fx-background-color: #E2EDEC;">
+               <children>
+                  <VBox prefHeight="114.0" prefWidth="182.0" style="-fx-background-color: #E2EDEC;">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Main" wrappingWidth="44.46063232421875">
+                           <font>
+                              <Font name="Berlin Sans FB" size="19.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="films_button" layoutX="10.0" layoutY="74.0" mnemonicParsing="false" onAction="#openFilmsPage" prefHeight="8.0" prefWidth="182.0" style="-fx-background-color: #E2EDEC;" text="Films">
+                           <font>
+                              <Font name="Berlin Sans FB" size="21.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="book_a_ticket_button" layoutX="10.0" layoutY="32.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="182.0" style="-fx-background-color: #E2EDEC;" text="Book a ticket">
+                           <font>
+                              <Font name="Berlin Sans FB" size="21.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" prefHeight="114.0" prefWidth="182.0">
+                     <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Additional" wrappingWidth="90.06063461303711">
+                           <font>
+                              <Font name="Berlin Sans FB" size="19.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="snacks_button" layoutX="10.0" layoutY="74.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="182.0" style="-fx-background-color: #E2EDEC;" text="Snacks">
+                           <font>
+                              <Font name="Berlin Sans FB" size="21.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="vip_tickets_button" layoutX="10.0" layoutY="72.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="182.0" style="-fx-background-color: #E2EDEC;" text="VIP Tickets">
+                           <font>
+                              <Font name="Berlin Sans FB" size="21.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <Text layoutX="182.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recently Added" wrappingWidth="182.39999999999998">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Text>
+            <ScrollPane layoutX="182.0" layoutY="28.0" prefHeight="194.0" prefWidth="755.0">
+               <content>
+                  <HBox prefHeight="171.0" prefWidth="1047.0">
+                     <children>
+                        <HBox prefHeight="172.0" prefWidth="114.0">
+                           <children>
+                              <ImageView fitHeight="172.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/e24ad7023de5c68f5dbc109b390599c9.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="172.0" prefWidth="32.0" />
+                        <HBox layoutX="127.0" layoutY="10.0" prefHeight="172.0" prefWidth="104.0">
+                           <children>
+                              <ImageView fitHeight="176.0" fitWidth="123.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/4f339cd1fd7ccff6fa25391fecd182f2--terminator-poster-terminator-.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="127.0" layoutY="10.0" prefHeight="172.0" prefWidth="32.0" />
+                        <HBox layoutX="282.0" layoutY="10.0" prefHeight="176.0" prefWidth="101.0">
+                           <children>
+                              <ImageView fitHeight="176.0" fitWidth="134.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/7a0e4a0665ada7ebce5edbdcd5eba02e.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="282.0" layoutY="10.0" prefHeight="172.0" prefWidth="32.0" />
+                        <HBox layoutX="432.0" layoutY="10.0" prefHeight="176.0" prefWidth="117.0">
+                           <children>
+                              <ImageView fitHeight="174.0" fitWidth="124.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/67f6b5ad47cb4412cd55b51fe8deb0fd.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="432.0" layoutY="10.0" prefHeight="172.0" prefWidth="32.0" />
+                        <HBox layoutX="582.0" layoutY="10.0" prefHeight="176.0" prefWidth="101.0">
+                           <children>
+                              <ImageView fitHeight="176.0" fitWidth="134.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/4362990.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="582.0" layoutY="10.0" prefHeight="172.0" prefWidth="32.0" />
+                        <HBox layoutX="732.0" layoutY="10.0" prefHeight="172.0" prefWidth="32.0">
+                           <children>
+                              <ImageView fitHeight="179.0" fitWidth="131.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/aa55283adee498ec7bb31242b3466304.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="732.0" layoutY="10.0" prefHeight="172.0" prefWidth="32.0" />
+                        <HBox layoutX="882.0" layoutY="10.0" prefHeight="172.0" prefWidth="32.0">
+                           <children>
+                              <ImageView fitHeight="177.0" fitWidth="137.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/thor-un-mundo-oscuro-poster-3.jpg" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </content>
+            </ScrollPane>
+            <Text layoutX="182.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recommended for you" wrappingWidth="235.19998779296873">
+               <font>
+                  <Font name="Berlin Sans FB" size="24.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="269.0" fitWidth="155.0" layoutX="182.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/95538.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="269.0" fitWidth="155.0" layoutX="385.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/4363048.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="270.0" fitWidth="151.0" layoutX="586.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/3214702.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="268.0" fitWidth="151.0" layoutX="789.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/2544156.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="14.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CineBook" wrappingWidth="201.79568481445312">
+         <font>
+            <Font name="Dubai Medium" size="48.0" />
+         </font>
+      </Text>
+      <Button fx:id="Log_out_button" layoutX="653.0" layoutY="23.0" mnemonicParsing="false" onAction="#logOut" prefHeight="31.0" prefWidth="79.0" style="-fx-background-radius: 999;" text="Log out">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="886.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/1687492471_2-32.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="profile_button" layoutX="741.0" layoutY="23.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="135.0" style="-fx-background-radius: 999;" text="My Profile">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="notifications_button" layoutX="216.0" layoutY="24.0" mnemonicParsing="false" onAction="#openNotificationsPage" prefHeight="31.0" prefWidth="101.0" style="-fx-background-radius: 999;" text="Notifications">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
